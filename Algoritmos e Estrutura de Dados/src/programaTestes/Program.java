@@ -2,6 +2,7 @@ package programaTestes;
 
 import fifo.Fifo;
 import fifo.FifoLinear;
+import listaEncadeada.ListaEncadeada;
 import pilha.Pilha;
 
 public class Program {
@@ -73,26 +74,48 @@ public class Program {
 //		fifo.imprimirTodaFila();
 //		System.out.println("--------------------------------");
 
-		FifoLinear fl = new FifoLinear(5);
-		fl.enqueue(1);
-		fl.enqueue(2);
-		fl.enqueue(3);
-		fl.enqueue(4);
-		fl.enqueue(6);
-
-		fl.imprimirTodaFila();
-		System.out.println("----------------");
-		fl.dequeue();
-
-		fl.imprimirTodaFila();
-		System.out.println("----------------");
-		System.out.println(fl.getPrimeiro());
-		System.out.println(fl.getUltimo());
+//		FifoLinear fl = new FifoLinear(5);
+//		fl.enqueue(1);
+//		fl.enqueue(2);
+//		fl.enqueue(3);
+//		fl.enqueue(4);
+//		fl.enqueue(6);
+//
+//		fl.imprimirTodaFila();
+//		System.out.println("----------------");
+//		fl.dequeue();
+//
+//		fl.imprimirTodaFila();
+//		System.out.println("----------------");
+//		System.out.println(fl.getPrimeiro());
+//		System.out.println(fl.getUltimo());
 //		fl.enqueue(7); A partir daqui dará erro, pois não retorna a posição 0 do array como a FifoCircular
 //		fl.imprimirTodaFila();
 //		System.out.println("----------------");
 		
-
+		System.out.println("----------Testes Lista encadeada----------------");
+		
+		ListaEncadeada<Integer> lista = new ListaEncadeada();
+		lista.adiciona(1);//0
+		lista.adiciona(2);//1
+		lista.adiciona(3);//2
+		lista.adiciona(4);//3
+//		System.out.println(lista);
+//		System.out.println(lista.getTamanho());//retorna tamanho
+//		System.out.println(lista.printList());//imprime lista
+//		lista.clearList(); limpa lista
+//		System.out.println(lista.busca(1));//posicao 0
+//		System.out.println(lista.busca(2));
+//		System.out.println(lista.buscaIndex(1));
+		lista.insertWithPosition(2,10);
+		System.out.println(lista.printList());
+		System.out.println(lista.busca(10));
+		System.out.println(lista.busca(4));
+		lista.pop();
+		System.out.println(lista.printList());
+		lista.remove(2);
+		System.out.println(lista.printList());
+		
 	}
 
 }
