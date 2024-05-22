@@ -1,0 +1,79 @@
+Pilha: métodos push e pop.
+
+Fila: métodos enqueue, dequeue, rear e front.
+
+Lista encadeada: métodos push, pop, insert, remove e elementAt.
+
+Pilha->
+
+Método push:
+
+Descrição: Adiciona um elemento no topo da pilha.
+Complexidade de Tempo: O(1) – Inserir um elemento no topo da pilha é uma operação constante.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional além do elemento a ser adicionado.
+
+Método pop:
+
+Descrição: Remove o elemento do topo da pilha.
+Complexidade de Tempo: O(1) – Remover um elemento do topo da pilha é uma operação constante.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional, apenas a remoção do elemento.
+
+
+Fila->
+
+Método enqueue:
+
+Descrição: Adiciona um elemento ao final da fila.
+Complexidade de Tempo: O(1) – Inserir um elemento no final da fila é uma operação constante.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional além do elemento a ser adicionado.
+
+Método dequeue:
+
+Descrição: Remove o elemento do início da fila.
+Complexidade de Tempo: O(1) – Remover um elemento do início da fila é uma operação constante.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional, apenas a remoção do elemento.
+
+Método rear:
+
+Descrição: Retorna o elemento no final da fila.
+Complexidade de Tempo: O(1) – Acessar o último elemento é uma operação constante.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional.
+
+Método front:
+
+Descrição: Retorna o elemento no início da fila.
+Complexidade de Tempo: O(1) – Acessar o primeiro elemento é uma operação constante.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional.
+
+Lista Encadeada->
+
+Método push:
+
+Descrição: Adiciona um elemento no final da lista.
+Complexidade de Tempo: O(1) – Inserir um elemento no final da lista é uma operação constante.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional além do elemento a ser adicionado.
+
+Método pop:
+
+Descrição: Remove o elemento do final da lista.
+Complexidade de Tempo: O(n) – Remover um elemento no final da lista requer busca do objeto na lista.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional, apenas a remoção do elemento.
+
+Método insert:
+
+Descrição: Insere um elemento em uma posição específica.
+Complexidade de Tempo: O(n) – necessário percorrer toda a lista até a posição desejada.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional além do elemento a ser adicionado.
+
+
+Método remove:
+
+Descrição: Remove um elemento de uma posição específica.
+Complexidade de Tempo: O(n) – necessário percorrer toda a lista até a posição desejada.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional, apenas a remoção do elemento.
+Método elementAt:
+
+Descrição: Retorna o elemento em uma posição específica.
+Complexidade de Tempo: O(n) – necessário percorrer toda a lista até a posição desejada.
+Complexidade de Espaço: O(1) – A operação em si não requer espaço adicional.
+
